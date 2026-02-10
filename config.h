@@ -3,11 +3,9 @@
 
 #include <vector>
 
-using namespace std;
-
 class Config {
 public:
-    static const vector<vector<int>> grid;
+    static const std::vector<std:: vector<int>> grid;
     static const int smax;
     static const double alpha;
 };
