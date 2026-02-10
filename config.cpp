@@ -1,18 +1,11 @@
-#include <vector>
+#include "config.h"
 
-using namespace std;
-
-class Config{
-    public:
-        const vector<vector<int>> grid = {
-        {0, 0, 1, 0},
-        {0, 1, 1, 0},
-        {0, 0, 0, 1},
-        {1, 1, 0, 0}
-        };
-
-        static const int smax = 4;
-        
-        static const double alpha = 0.0;
-
+const std::vector<std::vector<int>> Config::grid = {
+    {0, 0, 1, 0},
+    {0, 1, 1, 0},
+    {0, 0, 0, 1},
+    {1, 1, 0, 0}
 };
+
+const int Config::smax = 4;
+const double Config::alpha = 0.0;
